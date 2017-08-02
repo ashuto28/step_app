@@ -7,8 +7,7 @@ This is basically designed for college managment system.The project is divided i
 
 Description-<br>
 1: Attendance system(available in app as well as in webapp)<br>
-   This module consists of App and webApp which is designed for student to view their attendance and for teachers to take and  
-   put live attendance feed on to the server
-   Additional features-
-      i:  e-iCard and live percentage of attendance
-      ii: Time table of next class
+   &nsb This module consists of App and webApp which is designed for student to view their attendance and for teachers to take<br> &nsb and put live attendance feed on to the server<br>
+  &nsb &nsb  Additional features-<br>
+     &nsb &nsb &nsb  i:  e-iCard and live percentage of attendance<br>
+     &nsb &nsb &nsb   ii: Time table of next class<br>

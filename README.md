@@ -10,4 +10,6 @@ Description-<br>
    &nbsp;This module consists of App and webApp which is designed for student to view their attendance and for teachers to take<br>&nbsp; and put live attendance feed on to the server<br>
   &nbsp;&nbsp;Additional features-<br>
     &nbsp;&nbsp;&nbsp;  i:  e-iCard and live percentage of attendance<br>
-    &nbsp;&nbsp;&nbsp;   ii: Time table of next class<br>
+    &nbsp;&nbsp;&nbsp;   ii: Time table of next class and whole time table<br>
+    &nbsp;&nbsp;&nbsp;   ii: Graph related to attendance till date and summary of attendance<br>
+    

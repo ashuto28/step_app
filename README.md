@@ -30,7 +30,8 @@ Description-<br><br>
     &nbsp;&nbsp;&nbsp;    i: Live coding arena where student can code in any language of there choice and see output of there code<br>
     &nbsp;&nbsp;&nbsp;   ii: Problem archive list of all problems mentioned by admin<br>
     &nbsp;&nbsp;&nbsp;  iii: Contest : which will provide there ranks based on passing testcases<br> <br>
-    <a href="#">hjhjh</a>
-    http://stepappweb.000webhost.com
+    <a href="http://stepappweb.000webhost.com">FOR LIVE EXAMPLE CLICK HERE</a>
+   <br>
+   <h2>Login as 1234 password as admin</h2>
           
     

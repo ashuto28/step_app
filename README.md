@@ -30,7 +30,7 @@ Description-<br><br>
     &nbsp;&nbsp;&nbsp;    i: Live coding arena where student can code in any language of there choice and see output of there code<br>
     &nbsp;&nbsp;&nbsp;   ii: Problem archive list of all problems mentioned by admin<br>
     &nbsp;&nbsp;&nbsp;  iii: Contest : which will provide there ranks based on passing testcases<br> <br>
-    <a href="http://stepappweb.000webhostapp.com" target="_blank">FOR LIVE EXAMPLE CLICK HERE</a>
+    <a href="http://115.248.44.182/moodleugi/as/" target="_blank">FOR LIVE EXAMPLE CLICK HERE</a>
    <br>
    <h3>Login as 1501010039 password as ashutosh</h3>
           

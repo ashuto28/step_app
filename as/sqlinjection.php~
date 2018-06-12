@@ -1,0 +1,37 @@
+<?php
+	if($_SERVER['REQUEST_METHOD']==='POST'){
+		$email=$_POST['email'];
+		$host = 'localhost';
+	$user = 'root';
+	$pass = 'ashutosh';
+	$db = 'ashu';
+	$mysqli = new mysqli($host,$user,$pass,$db) or die($mysqli->error);
+	$result = $mysqli->query("SELECT * FROM `ashu` WHERE email='$email'");
+	if($result->num_rows==0)
+		echo "no data found";
+	else{
+		$user=$result->fetch_assoc();
+		echo $user['email'];
+	}
+		
+	
+	
+	}
+	
+
+?>
+
+<html>
+
+<head>
+<title>
+sql injection
+</title>
+</head>
+<body>
+<form method='POST' action='sqlinjection.php' autocomplete='off'>
+	<lable>   Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</lable><input type='text' placeholder="enter email" name='email'>
+	<input type='submit' value='PROCESS'>
+</form>
+</body>
+</html>

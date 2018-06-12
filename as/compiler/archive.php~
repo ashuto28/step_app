@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Home</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+	</head>
+<body>
+<div class="main">
+<div class="row">
+<div class="col-sm-12">
+<nav class="shadow navbar navbar-inverse navbar-fixed-top nbar">
+    <div class="navbar-header">
+      <a class="navbar-brand lspace" href="../profile.php">StepApp Coding arena</a>
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-menubuilder">
+    <ul class="nav navbar-nav">
+      <li class="space"><a href="compiler.php"><i class="fa fa-code ispace"></i>Compiler</a></li>
+      <li class="space"><a href="archive.php"><i class="fa fa-archive ispace"></i>Problem Archive</a></li>
+      <li class="space"><a href="contest.php"><i class="fa fa-cogs ispace"></i>Contests</a></li>
+		<li class="space"><a href="../profile.php"><i class="fa fa-home ispace"></i>Home</a></li>
+		<li class="space"><a href="../logout.php"><i class="fa fa-check ispace"></i>Log Out</a></li>
+      	<table>
+		   <tr>
+			  <td>Current time:</td>
+			  <td id="Hour" style="color:green;font-size:large;"></td>
+			  <td id="Minut" style="color:green;font-size:x-large;"></td>
+			  <td id="Second" style="color:red;font-size:xx-large;"></td>
+		  <tr>
+		</table> 
+    </ul>
+    </div>
+
+ 
+	  <script type="text/javascript">
+		 function timedMsg()
+		  {
+			var t=setInterval("change_time();",1000);
+		  }
+		 function change_time()
+		 {
+		   var d = new Date();
+			
+			 var curr_hour = d.getHours();
+		   var curr_min = d.getMinutes();
+		   var curr_sec = d.getSeconds();
+		   if(curr_hour > 12)
+			 curr_hour = curr_hour - 12;
+		   document.getElementById('Hour').innerHTML =curr_hour+':';
+			document.getElementById('Minut').innerHTML=curr_min+':';
+			document.getElementById('Second').innerHTML=curr_sec;
+		 }
+		timedMsg();   
+		</script>
+</nav>
+</div>
+</div>
+
+
+<div class="row log">
+<div class="col-sm-10">
+<div class=""><h3 style="text-align:center;">This module is still in progress Please visit after some time or contact Ashutosh(7081271808) for detail</h3></div>
+</div>
+
+<div class="col-sm-1">
+
+</div>
+
+<div class="col-sm-1">
+  
+</div>
+
+</div>
+
+
+
+
+<div class="row cspace">
+<div class="col-sm-1">
+</div>
+<div class="col-sm-8">
+
+
+</div>
+
+<div class="col-sm-3">
+
+</div>
+</div>
+</div>
+</div><br><br><br>
+
+<div class="area">
+<div class="well foot">
+<div class="row area">
+<div class="col-sm-3">
+</div>
+
+<div class="col-sm-5">
+
+
+<div class="fm">
+
+<b> &copy Content owned by STEPAPP CO. LTD.  </b><br>
+<b>Developed By <a href="https://fb.com/ashutosh.dwivedi.92102">Ashutosh Dwivedi</a></b>
+
+</div>
+</div>
+
+
+<div class="col-sm-4">
+
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+

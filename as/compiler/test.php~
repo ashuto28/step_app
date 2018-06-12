@@ -1,0 +1,7 @@
+<?php
+
+exec("javac userfile/40/Myclass.java 2> ashu.txt");
+
+
+
+?>

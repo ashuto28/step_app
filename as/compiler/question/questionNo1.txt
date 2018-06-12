@@ -1,0 +1,11 @@
+Write a program to give output as below
+
+
+<strong>Output</strong>:Hello world!!!!
+
+
+<strong>Note </strong>: Last line of any output will not contain 
+newline.
+
+So write your code as, it should not terminate
+with newline at the end of execution

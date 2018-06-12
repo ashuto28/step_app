@@ -1,0 +1,5 @@
+#include<stdio.h>
+void main(){
+printf("Ashutosh is Awesome,Excelent,Smart etc guy\n");
+printf("Its the ASHUTOSH, think beyond the limit :D");
+}

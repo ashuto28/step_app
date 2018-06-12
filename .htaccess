@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^(compiler)/compiler compiler/compiler.php
+RewriteRule ^(compiler)/arc compiler/archive.php
+RewriteRule ^(compiler)/cont compiler/contest.php
+RewriteRule ^compiler/compile$ compiler/compile.php
